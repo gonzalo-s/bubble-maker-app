@@ -1,0 +1,86 @@
+.bubbleMaker-wrapper {
+  display: flex;
+  width: 75%;
+  height: 100%;
+  margin: auto;
+  justify-content: space-between;
+}
+.bubbleMaker-bubbles-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 80%;
+  height: fit-content;
+}
+.bubbleMaker-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 20%;
+  /* height: 10rem; */
+}
+.bubbleMaker-color-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* height: 5rem; */
+}
+.bubbleMaker-quantity-buttons-reset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* height: 6rem; */
+  width: 100%;
+}
+.circleSlider-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.color-button,
+.color-button-active {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.bubbleMaker-quantity-buttons {
+  display: flex;
+  width: 100%;
+
+  align-items: center;
+}
+
+.quantity-button {
+  width: 100%;
+  height: 2rem;
+}
+
+.bubble-maker-reset-btn {
+  height: 2rem;
+  width: 100%;
+}
+
+.bubble {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.slidecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider {
+  width: 50%;
+}
+
+.circleSlider {
+  border-radius: 50%;
+}
